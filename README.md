@@ -1,6 +1,6 @@
 # Suitaar news
 
-The source of [news.suitaar.com](https://news.suitaar.com): updates, maintenance windows and blog posts from [Suitaar](https://suitaar.com). A static Jekyll site on GitHub Pages. No scripts, no trackers, no cookies.
+The source of [news.suitaar.com](https://news.suitaar.com): updates, maintenance windows and posts from [Suitaar](https://suitaar.com). A static Jekyll site on GitHub Pages. No scripts, no trackers, no cookies.
 
 ## Categories and feeds
 
@@ -8,7 +8,7 @@ The source of [news.suitaar.com](https://news.suitaar.com): updates, maintenance
 |---|---|---|
 | Updates (new features) | `/updates/` | `/feed/updates.xml` |
 | Maintenance windows | `/maintenance/` | `/feed/maintenance.xml` |
-| Blog | `/blog/` | `/feed/blog.xml` |
+| Posts | `/posts/` | `/feed/posts.xml` |
 | Everything | `/` | `/feed.xml` |
 
 There is no mailing list. People follow a feed.
@@ -17,7 +17,7 @@ There is no mailing list. People follow a feed.
 
 1. Write it in `_drafts/` first. Drafts are not published.
 2. When it is approved, move it to `_posts/YYYY-MM-DD-slug.md`.
-3. Front matter: `layout: post`, `title`, `categories: [updates]` (or `maintenance`, `blog`), and a `description` of at most about 155 characters.
+3. Front matter: `layout: post`, `title`, `categories: [updates]` (or `maintenance`, `posts`), and a `description` of at most about 155 characters.
 4. A maintenance post also has `status` (planned, in progress, done), `start` and `end` in UTC. To update a window, change the same post; set `last_update`. Use `_drafts/maintenance-template.md`.
 
 ## Rules

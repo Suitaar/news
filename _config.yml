@@ -1,5 +1,5 @@
 title: Suitaar news
-description: Updates, maintenance windows and blog posts from Suitaar, the alert router that keeps your Opsgenie alerts in Slack and Discord.
+description: Updates, maintenance windows and posts from Suitaar, the alert router that keeps your Opsgenie alerts in Slack and Discord.
 url: https://news.suitaar.com
 lang: en
 timezone: UTC
@@ -16,7 +16,7 @@ feed:
   categories:
     - updates
     - maintenance
-    - blog
+    - posts
 
 twitter:
   username: suitaar
