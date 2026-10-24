@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<article>
+  <p class="muted"><span class="tag">{{ page.categories | first }}</span> {{ page.date | date: "%-d %B %Y" }}</p>
+  <h1>{{ page.title }}</h1>
+  {% if page.categories contains "maintenance" %}
+  <div class="window">
+    <p><strong>Status:</strong> <span class="status-{{ page.status | slugify }}">{{ page.status }}</span></p>
+    <p><strong>Start:</strong> {{ page.start | date: "%-d %B %Y, %H:%M UTC" }}<br>
+       <strong>End:</strong> {{ page.end | date: "%-d %B %Y, %H:%M UTC" }}</p>
+    {% if page.last_update %}<p class="muted">Last update: {{ page.last_update | date: "%-d %B %Y, %H:%M UTC" }}</p>{% endif %}
+  </div>
+  {% endif %}
+  {{ content }}
+</article>
+<p class="muted">Follow by feed: <a href="{{ '/feed/' | append: page.categories.first | append: '.xml' | relative_url }}">{{ page.categories | first }} feed</a> · <a href="{{ '/feed.xml' | relative_url }}">all posts</a></p>

@@ -1,0 +1,30 @@
+title: Suitaar news
+description: Updates, maintenance windows and blog posts from Suitaar, the alert router that keeps your Opsgenie alerts in Slack and Discord.
+url: https://news.suitaar.com
+lang: en
+timezone: UTC
+
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# One feed for everything (/feed.xml) and one for each category (/feed/<category>.xml).
+feed:
+  categories:
+    - updates
+    - maintenance
+    - blog
+
+twitter:
+  username: suitaar
+
+logo: /assets/favicon.svg
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor

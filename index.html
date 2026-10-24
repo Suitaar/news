@@ -1,0 +1,23 @@
+---
+layout: default
+title: Suitaar news
+description: Updates, maintenance windows and blog posts from Suitaar, the alert router that keeps your Opsgenie alerts in Slack and Discord.
+---
+<h1>Suitaar news</h1>
+<p class="lead">New features, maintenance windows and blog posts from <a href="https://suitaar.com/">Suitaar</a>. Suitaar speaks the Opsgenie Alert API, so Alertmanager, Grafana and other tools send their alerts to Slack or Discord when you change one URL.</p>
+<p>There is no mailing list. Follow a feed in your feed reader:
+  <a href="{{ '/feed/maintenance.xml' | relative_url }}">maintenance</a>,
+  <a href="{{ '/feed/updates.xml' | relative_url }}">updates</a>,
+  <a href="{{ '/feed/blog.xml' | relative_url }}">blog</a>, or
+  <a href="{{ '/feed.xml' | relative_url }}">everything</a>.</p>
+
+<h2>Latest</h2>
+{% if site.posts.size > 0 %}
+<ul class="posts">
+  {% for post in site.posts limit: 10 %}
+  <li><span class="tag">{{ post.categories | first }}</span> <a href="{{ post.url | relative_url }}">{{ post.title }}</a> <span class="muted">{{ post.date | date: "%-d %B %Y" }}</span></li>
+  {% endfor %}
+</ul>
+{% else %}
+<p class="muted">No posts yet.</p>
+{% endif %}

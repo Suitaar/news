@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  {% feed_meta %}
+  <link rel="alternate" type="application/atom+xml" title="Suitaar maintenance windows" href="{{ '/feed/maintenance.xml' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <strong><a class="brand" href="{{ '/' | relative_url }}"><img class="mark" src="{{ '/assets/favicon.svg' | relative_url }}" width="24" height="24" alt="">Suitaar news</a></strong>
+    <a href="{{ '/updates/' | relative_url }}">Updates</a>
+    <a href="{{ '/maintenance/' | relative_url }}">Maintenance</a>
+    <a href="{{ '/blog/' | relative_url }}">Blog</a>
+    <a class="right" href="https://suitaar.com/">suitaar.com</a>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <span>Suitaar</span>
+    <a href="https://suitaar.com/guide">Setup guide</a>
+    <a href="https://suitaar.com/privacy">Privacy policy</a>
+    <a href="{{ '/feed.xml' | relative_url }}">Feed</a>
+    <a href="mailto:mail@suitaar.com">mail@suitaar.com</a>
+    <a href="https://x.com/suitaar" rel="noopener">X: @suitaar</a>
+    <span class="muted">No trackers, no cookies.</span>
+  </footer>
+</body>
+</html>
