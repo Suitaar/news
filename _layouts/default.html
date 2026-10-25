@@ -11,23 +11,19 @@
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
+  {% assign section = page.category | default: page.categories.first %}
   <header>
     <strong><a class="brand" href="{{ '/' | relative_url }}"><img class="mark" src="{{ '/assets/favicon.svg' | relative_url }}" width="24" height="24" alt="">Suitaar news</a></strong>
-    <a href="{{ '/updates/' | relative_url }}">Updates</a>
-    <a href="{{ '/maintenance/' | relative_url }}">Maintenance</a>
-    <a href="{{ '/posts/' | relative_url }}">Posts</a>
+    <a href="{{ '/updates/' | relative_url }}"{% if section == "updates" %} aria-current="page"{% endif %}>Updates</a>
+    <a href="{{ '/maintenance/' | relative_url }}"{% if section == "maintenance" %} aria-current="page"{% endif %}>Maintenance</a>
+    <a href="{{ '/posts/' | relative_url }}"{% if section == "posts" %} aria-current="page"{% endif %}>Posts</a>
     <a class="right" href="https://suitaar.com/">suitaar.com</a>
   </header>
   <main>
     {{ content }}
   </main>
   <footer>
-    <span>Suitaar</span>
-    <a href="https://suitaar.com/guide">Setup guide</a>
-    <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
-    <a href="{{ '/feed.xml' | relative_url }}">Feed</a>
-    <a href="mailto:mail@suitaar.com">mail@suitaar.com</a>
-    <a href="https://x.com/suitaar" rel="noopener">X: @suitaar</a>
+    <a href="https://suitaar.com/">Suitaar</a> · <a href="https://suitaar.com/guide">Setup guide</a> · <a href="{{ '/privacy/' | relative_url }}">Privacy</a> · <a href="{{ '/feed.xml' | relative_url }}">Feed</a> · <a href="mailto:mail@suitaar.com">mail@suitaar.com</a> · <a href="https://x.com/suitaar" rel="noopener">X: @suitaar</a>
   </footer>
 </body>
 </html>
