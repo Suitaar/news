@@ -11,6 +11,8 @@ Opsgenie stops on 5 April 2027. If you have Zaps that use Zapier's OpsGenie app,
 
 Zapier's OpsGenie app has one action, **Create Alert**. It works with Suitaar. You keep the app, the Zap and its fields. You only connect the app to Suitaar instead of Opsgenie.
 
+It also works on Zapier's free plan. The OpsGenie app is not a Premium app, and a Zap with one trigger and one action, such as New Zap Error → Create Alert, fits the free plan. (The webhook way needs Webhooks by Zapier, which is on paid plans only.)
+
 When you connect the OpsGenie app in Zapier, it asks for two fields:
 
 - **API Key**: the key of a Suitaar source. You make a source on the Suitaar dashboard and copy its key.
