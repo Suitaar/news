@@ -17,6 +17,15 @@ First, a fair point: if Sentry is your only source, Sentry's own Slack or Discor
 4. For alert rules too: turn on Alert Action, and add "Send a notification via" your integration to an issue or metric alert rule.
 5. Save. Then copy the integration's **Client Secret** into Suitaar, on the source page under Webhook signing secret. Suitaar then accepts only requests signed by Sentry.
 
+![Sentry internal integration details: Name, Webhook URL pointing to suitaar.com/api/v1/webhooks/sentryio/ (source id hidden), masked Webhook Headers, Alert Action.](/assets/posts/sentry-integration-details.png){: loading="lazy" decoding="async"}
+*The Webhook URL comes from your source page and ends with your source id. The Authorization header is only for the key method; with the recommended signature, leave Webhook Headers empty.*
+
+![Sentry permissions: Issue & Event set to Read & Write; Project, Team, Release and Distribution set to No Access.](/assets/posts/sentry-permissions.png){: loading="lazy" decoding="async"}
+*Permissions: Issue & Event: Read & Write. The others stay No Access.*
+
+![Sentry webhooks: Issues ticked, with Created, Resolved, Assigned, Archived and Unresolved.](/assets/posts/sentry-webhooks-issues.png){: loading="lazy" decoding="async"}
+*Webhooks: tick Issues.*
+
 ## What happens
 
 - A new issue opens an alert. Resolved or ignored closes it. Unresolved opens it again.

@@ -25,6 +25,9 @@ You make the source on the Suitaar dashboard and connect it to a Slack or Discor
 - A resolved alert closes the alert, and the channel shows it as resolved.
 - A burst of new alerts in one channel becomes 10 messages and one summary in that minute, and a message when the burst is over.
 
+![Discord messages from Suitaar: "Flood over: the 486 held alerts are resolved" and "Flood over: the 4 held alerts are resolved".](/assets/posts/discord-flood-over.png){: loading="lazy" decoding="async"}
+*When a flood is over, the channel says so. The held alerts stay in the Suitaar dashboard.*
+
 If Suitaar cannot be reached for a short time, Grafana sends the alert again at its next group interval, so the alert comes late, not never.
 
 ## Try it next to Opsgenie first
