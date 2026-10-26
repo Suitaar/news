@@ -21,7 +21,7 @@ First, a fair point: if Sentry is your only source, Sentry's own Slack or Discor
 *The Webhook URL comes from your source page and ends with your source id. The Authorization header is only for the key method; with the recommended signature, leave Webhook Headers empty.*
 
 ![Sentry permissions: Issue & Event set to Read & Write; Project, Team, Release and Distribution set to No Access.](/assets/posts/sentry-permissions.png){: loading="lazy" decoding="async"}
-*Permissions: Issue & Event: Read & Write. The others stay No Access.*
+*Permissions: Issue & Event: Read & Write here, because this setup also resolves issues in Sentry. Read is enough without that. The others stay No Access.*
 
 ![Sentry webhooks: Issues ticked, with Created, Resolved, Assigned, Archived and Unresolved.](/assets/posts/sentry-webhooks-issues.png){: loading="lazy" decoding="async"}
 *Webhooks: tick Issues.*
