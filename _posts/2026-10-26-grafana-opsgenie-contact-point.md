@@ -16,7 +16,7 @@ Open the contact point of the type OpsGenie, and change two fields:
 
 Then open **Optional OpsGenie settings** and tick **Auto close incidents**. Grafana then closes the alert in Suitaar when the alert is resolved. It is off by default.
 
-![Grafana OpsGenie contact point: Name Suitaar, API Key "<your Suitaar key>", Alert API URL https://suitaar.com/api/og/v2/alerts, Auto close incidents ticked.](/assets/posts/grafana-contact-point.png){: loading="lazy" decoding="async"}
+![Grafana OpsGenie contact point: Name Suitaar, API Key "a placeholder for your Suitaar key", Alert API URL https://suitaar.com/api/og/v2/alerts, Auto close incidents ticked.](/assets/posts/grafana-contact-point.png){: loading="lazy" decoding="async"}
 *Grafana: the OpsGenie contact point with the Suitaar URL. Tick Auto close incidents; it is off by default.*
 
 You make the source on the Suitaar dashboard and connect it to a Slack or Discord channel. All alerts of that contact point then go to that channel.

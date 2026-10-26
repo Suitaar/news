@@ -17,8 +17,8 @@ Suitaar (our product) can send all three to a team channel in Slack or Discord. 
 
 Make a Zap with the trigger **Zapier Manager → New Zap Error**, for all your Zaps. The action is a Webhooks by Zapier POST to Suitaar, with the alias `zap-<Root Id>`. Each failing Zap becomes one alert with a count, with links to the failed run and to the Zap.
 
-![Webhooks by Zapier POST step: URL https://suitaar.com/api/og/v2/alerts, Payload Type Json, header Authorization "GenieKey <your Suitaar key>".](/assets/posts/zapier-webhooks-post-step.png){: loading="lazy" decoding="async"}
-*The Webhooks by Zapier step. Use your Suitaar key in place of <your Suitaar key>.*
+![Webhooks by Zapier POST step: URL https://suitaar.com/api/og/v2/alerts, Payload Type Json, header Authorization "GenieKey a placeholder for your Suitaar key".](/assets/posts/zapier-webhooks-post-step.png){: loading="lazy" decoding="async"}
+*The Webhooks by Zapier step. Use your Suitaar key in place of `<your Suitaar key>`.*
 
 Turn off Autoreplay in the settings of this Zap and of the Zaps you watch: with Autoreplay on, Zapier sends the error only after its last replay, hours later.
 
