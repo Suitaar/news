@@ -32,6 +32,8 @@ Copy a token of the integration into the source page, under Sentry token. Then c
 
 We test Sentry end to end on production: a real issue opens an alert in Slack and Discord, the Ack shows in both, and the close resolves the issue in Sentry.
 
+It works on Sentry's free Developer plan too, in both directions: alerts from Sentry, and a close in Suitaar resolves the issue.
+
 Setup steps: [guide, Sentry](https://suitaar.com/guide#sentry).
 
 The free plan stays free after the beta: 3 channels, no payment details.
