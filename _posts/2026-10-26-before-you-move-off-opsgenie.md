@@ -7,6 +7,8 @@ description: "Five things to check before Opsgenie stops on 5 April 2027: your r
 
 Opsgenie stops on 5 April 2027. Whatever you move to, these five checks save surprises. Suitaar is our product, but this list applies to any replacement.
 
+![Checklist: 1 check your renewal date, Opsgenie stops on 5 April 2027; 2 list everything that sends to Opsgenie; 3 list your heartbeats; 4 split paging from alerts in the team channel; 5 run both side by side for a while.](/assets/posts/card-before-you-move-off-opsgenie.png){: loading="lazy" decoding="async"}
+
 ## 1. Your renewal date
 
 Atlassian allows a renewal only if the term ends before 5 April 2027. Data that is not moved to Jira Service Management is deleted on 5 April 2027. Check when your current term ends, so the move is not decided for you.

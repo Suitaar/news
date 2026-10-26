@@ -8,6 +8,8 @@ description: "Suitaar now accepts Sentry, Uptime Kuma, Healthchecks.io and Uptim
 
 These are live for every team since 23 October 2026.
 
+![New in Suitaar, live since 23 October 2026: Sentry, uptime tools (Uptime Kuma, Healthchecks.io, UptimeRobot), a GitHub Action, and the ogapi host for the Go SDK and Terraform.](/assets/posts/card-released-sentry-uptime-tools-github-action.png){: loading="lazy" decoding="async"}
+
 ## Sentry
 
 Sentry can send to Suitaar through an internal integration (a webhook). A new issue opens an alert. When the issue is resolved or ignored in Sentry, the alert closes. Metric alerts open and close too.

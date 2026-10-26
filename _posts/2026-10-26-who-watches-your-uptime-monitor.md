@@ -7,6 +7,8 @@ description: "An uptime monitor tells you when a site is down, but not when the 
 
 An uptime monitor, for example Uptime Kuma, tells you when a site is down. But when the monitor or its server stops, nothing tells you. The channel goes quiet, and quiet looks like everything is fine.
 
+![Diagram: Uptime Kuma checks your sites and pings a Suitaar heartbeat every minute; when Kuma stops, an alert goes to Slack or Discord. In our test, the alert came 73 seconds after Kuma stopped.](/assets/posts/card-who-watches-your-uptime-monitor.png){: loading="lazy" decoding="async"}
+
 The fix is to turn it around: instead of something checking the monitor, the monitor proves it is alive. It pings a heartbeat on another service every minute. When the pings stop, that service raises an alert.
 
 Suitaar is our product, and it has heartbeats for this.

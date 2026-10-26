@@ -7,6 +7,8 @@ description: "Our GitHub Action opens an alert when a workflow fails and closes 
 
 When CI breaks on main, you want to know, once. Not a new message for every failed run, and not silence because nobody looks at the Actions tab.
 
+![Diagram: CI fails and opens an alert with alias ci-main; a second failure is a repeat; the next passing run closes the alert with action close.](/assets/posts/card-github-actions-ci-alerts.png){: loading="lazy" decoding="async"}
+
 Suitaar (our product) has a GitHub Action, [Suitaar/alert-action](https://github.com/marketplace/actions/suitaar-alert-opsgenie-compatible), on the GitHub Marketplace. It creates, closes and acknowledges alerts, adds notes and pings heartbeats from a workflow.
 
 ## Open an alert when the build fails

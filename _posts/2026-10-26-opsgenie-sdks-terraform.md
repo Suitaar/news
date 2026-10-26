@@ -7,6 +7,8 @@ description: "Scripts on the Opsgenie SDKs can keep their code. Point the SDK at
 
 Not every alert comes from Alertmanager or Grafana. Many teams have scripts and small services that raise alerts through the Opsgenie SDKs. When Opsgenie stops on 5 April 2027, those calls fail.
 
+![Diagram: your code (Python SDK with suitaar.com/api/og, Go SDK and Terraform with ogapi.suitaar.com) sends to Suitaar's Opsgenie Alert API, and alerts go to Slack or Discord. Tested with opsgenie-sdk 2.1.5 and the Go SDK 1.2.23.](/assets/posts/card-opsgenie-sdks-terraform.png){: loading="lazy" decoding="async"}
+
 Suitaar (our product) speaks the Opsgenie Alert API, so the SDKs can talk to it. You change one setting and the key.
 
 ## Python: opsgenie-sdk
