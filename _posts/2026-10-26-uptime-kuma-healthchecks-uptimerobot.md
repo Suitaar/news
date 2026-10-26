@@ -25,10 +25,13 @@ Pending and maintenance change nothing. Tested with Uptime Kuma 1.23.
 ## Healthchecks.io
 
 1. Integrations → add a **Webhook**.
-2. Under "Execute when a check goes down" and again under "Execute when a check goes up": method POST, URL `https://suitaar.com/api/v1/webhooks/healthchecksio`, request body `$JSON`, request header `Authorization: Bearer <your Suitaar key>`.
+2. Under "Execute when a check goes down", and again under "Execute when a check goes up": choose POST in front of the URL, set the URL to `https://suitaar.com/api/v1/webhooks/healthchecksio`, Request Body to `$JSON`, and Request Headers to `Authorization: Bearer <your Suitaar key>`.
 3. Click **Test**: Healthchecks.io sends a check "TEST" down and then up, so Suitaar opens and closes the alert "TEST is down".
 
 The alert has the check's tags and its last ping. Grace, new, paused and started change nothing. Tested with Healthchecks.io 4.4 (self-hosted).
+
+![Healthchecks.io Webhook integration: Name Suitaar; for down and for up: POST https://suitaar.com/api/v1/webhooks/healthchecksio, Request Body $JSON, Request Headers Authorization: Bearer with a placeholder for your Suitaar key.](/assets/posts/healthchecks-webhook.png){: loading="lazy" decoding="async"}
+*Healthchecks.io: the Webhook integration for Suitaar, the same for down and up. Save it, then click Test.*
 
 ## UptimeRobot
 
