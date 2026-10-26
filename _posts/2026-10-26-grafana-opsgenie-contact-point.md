@@ -9,12 +9,15 @@ Opsgenie stops on 5 April 2027. If Grafana Alerting sends to Opsgenie through a 
 
 ## The change
 
-Open the contact point of the type Opsgenie, and change two fields:
+Open the contact point of the type OpsGenie, and change two fields:
 
-- **API URL**: `https://suitaar.com/api/og/v2/alerts`
-- **API key**: the key of a Suitaar source
+- **Alert API URL**: `https://suitaar.com/api/og/v2/alerts`
+- **API Key**: the key of a Suitaar source
 
-Keep **Auto close** on. Grafana then closes the alert in Suitaar when the alert is resolved.
+Then open **Optional OpsGenie settings** and tick **Auto close incidents**. Grafana then closes the alert in Suitaar when the alert is resolved. It is off by default.
+
+![Grafana OpsGenie contact point: Name Suitaar, API Key "<your Suitaar key>", Alert API URL https://suitaar.com/api/og/v2/alerts, Auto close incidents ticked.](/assets/posts/grafana-contact-point.png){: loading="lazy" decoding="async"}
+*Grafana: the OpsGenie contact point with the Suitaar URL. Tick Auto close incidents; it is off by default.*
 
 You make the source on the Suitaar dashboard and connect it to a Slack or Discord channel. All alerts of that contact point then go to that channel.
 

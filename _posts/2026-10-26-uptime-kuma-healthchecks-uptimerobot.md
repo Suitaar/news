@@ -19,6 +19,9 @@ Each tool also has a plain webhook. Suitaar reads each tool's own webhook: down 
 
 Pending and maintenance change nothing. Tested with Uptime Kuma 1.23.
 
+![Uptime Kuma Setup Notification: type Webhook, Friendly Name Suitaar, Post URL https://suitaar.com/api/v1/webhooks/uptimekumapet, Preset application/json, Additional Headers {"Authorization": "Bearer <your Suitaar key>"}.](/assets/posts/uptime-kuma-webhook.png){: loading="lazy" decoding="async"}
+*Uptime Kuma: the Webhook notification for Suitaar. Click Test, then turn it on for your monitors.*
+
 ## Healthchecks.io
 
 1. Integrations → add a **Webhook**.
