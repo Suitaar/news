@@ -42,4 +42,12 @@ ul.posts li .muted { white-space: nowrap; }
 .window { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 4px 20px; margin: 0 0 24px; }
 .window.in-progress { box-shadow: inset 0 3px 0 var(--amber); }
 
-article img { max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 8px; }
+article img { max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 8px; }
+
+/* Dark mode follows the system setting. Same tokens as the app. */
+@media (prefers-color-scheme: dark) {
+  :root { --ink: #ececee; --ground: #161618; --surface: #1f1f22; --muted: #a1a1a6; --line: #3a3a3e; --line-soft: #2a2a2d; --field: #8a8a8e; --amber: #f2a51a; --amber-text: #f5b942; --code: #2a2a2d; }
+  .brand .mark { box-shadow: 0 0 0 1px rgba(255,255,255,.18); }
+  /* Light screenshots are dimmed; captures taken in dark mode are not. */
+  article img:not(.dark-capture) { filter: brightness(.88); }
+}
