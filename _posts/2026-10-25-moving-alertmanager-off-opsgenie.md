@@ -43,10 +43,10 @@ You get the key from a source on the Suitaar dashboard. A source sends to the Sl
 - **A resolved group** closes the alert, because of `send_resolved: true`. The channel shows that it is resolved.
 - **A flood** of new alerts in one channel becomes 10 messages and one summary in that minute, and a message when the flood is over.
 
-![Three Suitaar messages in Slack for one Alertmanager alert: the new alert, "Repeated 6 times in the last 10 minutes", and "Resolved".](/assets/posts/slack-new-repeat-resolved.png){: loading="lazy" decoding="async"}
+![Three Suitaar messages in Slack for one Alertmanager alert: the new alert, "Repeated 6 times in the last 10 minutes", and "Resolved".](/assets/posts/slack-new-repeat-resolved.webp){: width="720" height="497" loading="lazy" decoding="async"}
 *Slack: the new alert, one summary for its repeats, and a message when it is resolved.*
 
-![One Suitaar message in Discord, first as a new alert, then edited to "Resolved" with the total count.](/assets/posts/discord-new-repeat-resolved.png){: loading="lazy" decoding="async"}
+![One Suitaar message in Discord, first as a new alert, then edited to "Resolved" with the total count.](/assets/posts/discord-new-repeat-resolved.webp){: .dark-capture width="548" height="778" loading="lazy" decoding="async"}
 *Discord: Suitaar edits the first message for repeats and when the alert is resolved.*
 
 Two optional settings help:

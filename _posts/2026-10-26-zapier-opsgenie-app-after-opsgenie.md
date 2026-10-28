@@ -18,11 +18,11 @@ When you connect the OpsGenie app in Zapier, it asks for two fields:
 - **API Key**: the key of a Suitaar source. You make a source on the Suitaar dashboard and copy its key.
 - **URL Key**: `https://ogapi.suitaar.com`
 
-![Zapier's OpsGenie connection form, with the API Key empty and the URL Key set to https://ogapi.suitaar.com](/assets/posts/zapier-opsgenie-connect-suitaar.png){: loading="lazy" decoding="async"}
+![Zapier's OpsGenie connection form, with the API Key empty and the URL Key set to https://ogapi.suitaar.com](/assets/posts/zapier-opsgenie-connect-suitaar.webp){: width="521" height="436" loading="lazy" decoding="async"}
 
 Zapier then says the connection works. Pick the new connection in your Zap's Create Alert step, and turn the Zap on.
 
-![A Zap's OpsGenie Create Alert step with the Suitaar account and the message "Your account connection is working correctly."](/assets/posts/zapier-opsgenie-create-alert-working.png){: loading="lazy" decoding="async"}
+![A Zap's OpsGenie Create Alert step with the Suitaar account and the message "Your account connection is working correctly."](/assets/posts/zapier-opsgenie-create-alert-working.webp){: width="728" height="369" loading="lazy" decoding="async"}
 
 ## What arrives in Suitaar
 

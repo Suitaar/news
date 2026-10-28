@@ -22,7 +22,7 @@ Suitaar is our product. It has heartbeats that use the same ping path as Opsgeni
 
 The `&&` matters: the ping runs only when the backup worked. When no ping comes within the interval and the grace time, Suitaar opens an alert in the channel of that source. The next ping closes it.
 
-![Heartbeat table of a source. nightly-backup: every 1440 minutes, grace 30 minutes, status late. cert-renew: every 720 minutes, grace 0 minutes, status ok.](/assets/posts/heartbeats-table.png){: loading="lazy" decoding="async"}
+![Heartbeat table of a source. nightly-backup: every 1440 minutes, grace 30 minutes, status late. cert-renew: every 720 minutes, grace 0 minutes, status ok.](/assets/posts/heartbeats-table.webp){: width="720" height="229" loading="lazy" decoding="async"}
 *The heartbeats of a source, with their last ping. When no ping comes within the interval and the grace time, Suitaar opens an alert and the status says late.*
 
 ## Moving an Opsgenie heartbeat

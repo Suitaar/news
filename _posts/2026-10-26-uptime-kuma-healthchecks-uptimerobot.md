@@ -19,7 +19,7 @@ Each tool also has a plain webhook. Suitaar reads each tool's own webhook: down 
 
 Pending and maintenance change nothing. Tested with Uptime Kuma 1.23.
 
-![Uptime Kuma Setup Notification: type Webhook, Friendly Name Suitaar, Post URL https://suitaar.com/api/v1/webhooks/uptimekumapet, Preset application/json, Additional Headers {"Authorization": "Bearer a placeholder for your Suitaar key"}.](/assets/posts/uptime-kuma-webhook.png){: loading="lazy" decoding="async"}
+![Uptime Kuma Setup Notification: type Webhook, Friendly Name Suitaar, Post URL https://suitaar.com/api/v1/webhooks/uptimekumapet, Preset application/json, Additional Headers {"Authorization": "Bearer a placeholder for your Suitaar key"}.](/assets/posts/uptime-kuma-webhook.webp){: width="532" height="780" loading="lazy" decoding="async"}
 *Uptime Kuma: the Webhook notification for Suitaar. Click Test, then turn it on for your monitors.*
 
 ## Healthchecks.io
@@ -30,7 +30,7 @@ Pending and maintenance change nothing. Tested with Uptime Kuma 1.23.
 
 The alert has the check's tags and its last ping. Grace, new, paused and started change nothing. Tested with Healthchecks.io 4.4 (self-hosted).
 
-![Healthchecks.io Webhook integration: Name Suitaar; for down and for up: POST https://suitaar.com/api/v1/webhooks/healthchecksio, Request Body $JSON, Request Headers Authorization: Bearer with a placeholder for your Suitaar key.](/assets/posts/healthchecks-webhook.png){: loading="lazy" decoding="async"}
+![Healthchecks.io Webhook integration: Name Suitaar; for down and for up: POST https://suitaar.com/api/v1/webhooks/healthchecksio, Request Body $JSON, Request Headers Authorization: Bearer with a placeholder for your Suitaar key.](/assets/posts/healthchecks-webhook.webp){: width="720" height="443" loading="lazy" decoding="async"}
 *Healthchecks.io: the Webhook integration for Suitaar, the same for down and up. Save it, then click Test.*
 
 ## UptimeRobot

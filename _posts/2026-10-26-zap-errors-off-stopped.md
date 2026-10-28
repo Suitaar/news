@@ -17,7 +17,7 @@ Suitaar (our product) can send all three to a team channel in Slack or Discord. 
 
 Make a Zap with the trigger **Zapier Manager → New Zap Error**, for all your Zaps. The action is a Webhooks by Zapier POST to Suitaar, with the alias `zap-<Root Id>`. Each failing Zap becomes one alert with a count, with links to the failed run and to the Zap.
 
-![Webhooks by Zapier POST step: URL https://suitaar.com/api/og/v2/alerts, Payload Type Json, header Authorization "GenieKey a placeholder for your Suitaar key".](/assets/posts/zapier-webhooks-post-step.png){: loading="lazy" decoding="async"}
+![Webhooks by Zapier POST step: URL https://suitaar.com/api/og/v2/alerts, Payload Type Json, header Authorization "GenieKey a placeholder for your Suitaar key".](/assets/posts/zapier-webhooks-post-step.webp){: width="728" height="478" loading="lazy" decoding="async"}
 *The Webhooks by Zapier step. Use your Suitaar key in place of `<your Suitaar key>`.*
 
 Turn off Autoreplay in the settings of this Zap and of the Zaps you watch: with Autoreplay on, Zapier sends the error only after its last replay, hours later.
@@ -26,7 +26,7 @@ Turn off Autoreplay in the settings of this Zap and of the Zaps you watch: with 
 
 A second Zap with the trigger **Zapier Manager → Zap Turned Off**, and the alias `zap-off-<Root Id>`. It sends one P2 alert: "This Zap is off. It does not run until someone turns it on again." Close it by hand when the Zap runs again.
 
-![Suitaar message in Discord: "P2 · Zap turned off: Fail on purpose. This Zap is off. It does not run until someone turns it on again."](/assets/posts/discord-zap-turned-off.png){: loading="lazy" decoding="async"}
+![Suitaar message in Discord: "P2 · Zap turned off: Fail on purpose. This Zap is off. It does not run until someone turns it on again."](/assets/posts/discord-zap-turned-off.webp){: .dark-capture width="468" height="186" loading="lazy" decoding="async"}
 *The alert for a Zap that Zapier turned off (a test Zap).*
 
 ## 3. A scheduled Zap stops running

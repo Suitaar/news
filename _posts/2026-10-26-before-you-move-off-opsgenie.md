@@ -7,7 +7,7 @@ description: "Five things to check before Opsgenie stops on 5 April 2027: your r
 
 Opsgenie stops on 5 April 2027. Whatever you move to, these five checks save surprises. Suitaar is our product, but this list applies to any replacement.
 
-![Checklist: 1 check your renewal date, Opsgenie stops on 5 April 2027; 2 list everything that sends to Opsgenie; 3 list your heartbeats; 4 split paging from alerts in the team channel; 5 run both side by side for a while.](/assets/posts/card-before-you-move-off-opsgenie.png){: loading="lazy" decoding="async"}
+![Checklist: 1 check your renewal date, Opsgenie stops on 5 April 2027; 2 list everything that sends to Opsgenie; 3 list your heartbeats; 4 split paging from alerts in the team channel; 5 run both side by side for a while.](/assets/posts/card-before-you-move-off-opsgenie.webp){: width="1200" height="675" loading="lazy" decoding="async"}
 
 ## 1. Your renewal date
 

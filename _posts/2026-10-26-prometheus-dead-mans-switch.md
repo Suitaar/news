@@ -7,7 +7,7 @@ description: "Alerts come only while Prometheus and Alertmanager run. A Watchdog
 
 Prometheus watches your systems. But when Prometheus or Alertmanager stops, the alerts stop too, and a quiet channel looks like everything is fine. Many teams use an always-firing Watchdog alert and a heartbeat in Opsgenie to catch that. When Opsgenie stops on 5 April 2027, that check needs a new home.
 
-![Diagram: Prometheus Watchdog rule, Alertmanager pings the heartbeat every minute, Suitaar heartbeat prometheus-watchdog, an alert in Slack or Discord when the pings stop. In our test, the alert came about 7 minutes after Alertmanager stopped and about 10 minutes after Prometheus stopped.](/assets/posts/card-prometheus-dead-mans-switch.png){: loading="lazy" decoding="async"}
+![Diagram: Prometheus Watchdog rule, Alertmanager pings the heartbeat every minute, Suitaar heartbeat prometheus-watchdog, an alert in Slack or Discord when the pings stop. In our test, the alert came about 7 minutes after Alertmanager stopped and about 10 minutes after Prometheus stopped.](/assets/posts/card-prometheus-dead-mans-switch.webp){: width="1200" height="675" loading="lazy" decoding="async"}
 
 Suitaar is our product. Its heartbeats work for this, with the same idea.
 
