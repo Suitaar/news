@@ -30,6 +30,7 @@ pre code { padding: 0; overflow-wrap: normal; }
 ul.posts { list-style: none; padding: 0; margin: 0 0 16px; }
 ul.posts li { padding: 10px 0; border-bottom: 1px solid var(--line-soft); }
 ul.posts li:last-child { border-bottom: 0; }
+ul.posts li .muted { white-space: nowrap; }
 
 /* Category tag and maintenance status: the app's pills, always with their words. */
 .tag, .status { display: inline-flex; align-items: center; gap: 6px; padding: 0 10px; border-radius: 999px; font-size: 14px; line-height: 1.6; background: var(--surface); border: 1px solid var(--field); color: var(--ink); }
