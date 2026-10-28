@@ -7,7 +7,7 @@ description: "An error handler in Make, or an error workflow in n8n, can send an
 
 Automations fail quietly. A Make scenario or an n8n workflow that breaks at night may go unnoticed until someone asks why the data is missing. Suitaar (our product) puts those failures in your team's Slack or Discord channel, with one HTTP step.
 
-![Diagram: a Make error handler or n8n error workflow sends an HTTP POST with an alias to Suitaar; repeats stay one alert, one message with a count in Slack or Discord.](/assets/posts/card-make-n8n-failures.png){: loading="lazy" decoding="async"}
+![Diagram: a Make error handler or n8n error workflow sends an HTTP POST with an alias to Suitaar; repeats stay one alert, one message with a count in Slack or Discord.](/assets/posts/card-make-n8n-failures.webp){: width="1200" height="675" loading="lazy" decoding="async"}
 
 ## Make
 

@@ -12,5 +12,5 @@ layout: default
   {% endfor %}
 </ul>
 {% else %}
-<p class="muted">No posts yet.</p>
+<p class="muted">{{ page.empty | default: "No posts yet." }}</p>
 {% endif %}

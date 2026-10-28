@@ -16,7 +16,7 @@ Open the contact point of the type OpsGenie, and change two fields:
 
 Then open **Optional OpsGenie settings** and tick **Auto close incidents**. Grafana then closes the alert in Suitaar when the alert is resolved. It is off by default.
 
-![Grafana OpsGenie contact point: Name Suitaar, API Key "a placeholder for your Suitaar key", Alert API URL https://suitaar.com/api/og/v2/alerts, Auto close incidents ticked.](/assets/posts/grafana-contact-point.png){: loading="lazy" decoding="async"}
+![Grafana OpsGenie contact point: Name Suitaar, API Key "a placeholder for your Suitaar key", Alert API URL https://suitaar.com/api/og/v2/alerts, Auto close incidents ticked.](/assets/posts/grafana-contact-point.webp){: width="585" height="583" loading="lazy" decoding="async"}
 *Grafana: the OpsGenie contact point with the Suitaar URL. Tick Auto close incidents; it is off by default.*
 
 You make the source on the Suitaar dashboard and connect it to a Slack or Discord channel. All alerts of that contact point then go to that channel.
@@ -28,7 +28,7 @@ You make the source on the Suitaar dashboard and connect it to a Slack or Discor
 - A resolved alert closes the alert, and the channel shows it as resolved.
 - A burst of new alerts in one channel becomes 10 messages and one summary in that minute, and a message when the burst is over.
 
-![Discord messages from Suitaar: "Flood over: the 486 held alerts are resolved" and "Flood over: the 4 held alerts are resolved".](/assets/posts/discord-flood-over.png){: loading="lazy" decoding="async"}
+![Discord messages from Suitaar: "Flood over: the 486 held alerts are resolved" and "Flood over: the 4 held alerts are resolved".](/assets/posts/discord-flood-over.webp){: .dark-capture width="495" height="272" loading="lazy" decoding="async"}
 *When a flood is over, the channel says so. The held alerts stay in the Suitaar dashboard.*
 
 If Suitaar cannot be reached for a short time, Grafana sends the alert again at its next group interval, so the alert comes late, not never.
