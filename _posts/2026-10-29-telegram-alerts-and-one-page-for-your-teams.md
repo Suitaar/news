@@ -5,9 +5,9 @@ categories: [updates]
 description: "Suitaar now sends alerts to Telegram, in your own chat or a group, with Ack and Close buttons. Also new: the Team page, Telegram in the setup, and a clearer key warning."
 ---
 
-Suitaar now sends alerts to Telegram, in your own chat or a group, with Ack and Close buttons. It works on the free plan, like Slack and Discord. This release also brings one page for your teams, to manage your teams and members in one place.
+Suitaar now sends alerts to Telegram, in your own chat or a group, with Ack and Close buttons. It works on the free plan, like Slack and Discord. This release also brings one page for your teams, Telegram in the setup, and a clearer warning when Suitaar shows you a key.
 
-![A Suitaar alert in a Telegram group: "Acknowledged · P3 · Heartbeat daily-release is expired", with a Close button under the message](/assets/posts/telegram-ack-close.webp){: width="543" height="312" loading="lazy" decoding="async"}
+![A Suitaar alert in a Telegram group: "Acknowledged · P3 · Heartbeat daily-release is expired", with a Close button under the message](/assets/posts/telegram-ack-close.webp){: width="543" height="234" loading="lazy" decoding="async"}
 
 ## Telegram
 
@@ -19,9 +19,9 @@ Any member of your team can connect a chat. Each alert is one message with its t
 Under an open alert are two buttons:
 
 - **Ack**: anyone in the chat can press it. The alert's timeline shows their Telegram name.
-- **Close**: only a member of your team who linked their Telegram account on the Account page (**Link my Telegram account**, under **Sign-in methods**). If new failures came in, press it a second time to close the new alert, or reopen it. This keeps the flow clear.
+- **Close**: only a member of your team who linked their Telegram account on the Account page (**Link my Telegram account**, under **Sign-in methods**). If new failures came in, press it a second time to confirm.
 
-To stop, send /stop to the bot, or remove the bot from the group. Each channel to a Telegram chat counts toward your channel limit, as for Slack and Discord. Telegram does not break through Do Not Disturb.
+To stop, send /stop to the bot, or remove the bot from the group. Each channel to a Telegram chat counts toward your channel limit, as for Slack and Discord. Telegram does not break through Do Not Disturb: for alerts at night, pair Suitaar with an on-call tool.
 
 Setup steps: [guide, Telegram](https://suitaar.com/guide#telegram).
 
