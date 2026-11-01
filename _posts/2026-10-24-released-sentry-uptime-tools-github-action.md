@@ -4,6 +4,7 @@ title: "Released: Sentry, Uptime Kuma, Healthchecks.io and UptimeRobot, and a Gi
 categories: [updates]
 date: 2026-10-24 18:00:00 +0000
 description: "Suitaar now accepts Sentry, Uptime Kuma, Healthchecks.io and UptimeRobot webhooks, has a GitHub Action, and serves the Opsgenie API at ogapi.suitaar.com."
+image: /assets/posts/card-released-sentry-uptime-tools-github-action.png
 ---
 
 These are live for every team since 23 October 2026.

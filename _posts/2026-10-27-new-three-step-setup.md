@@ -3,6 +3,7 @@ layout: post
 title: "New: a three-step setup after your first login"
 categories: [updates]
 description: "New teams now get a three-step setup: add a Slack or Discord webhook, add a source and copy its key, and send a test alert. Suitaar connects them for you."
+image: /assets/og/og-setup-step1.png
 ---
 
 

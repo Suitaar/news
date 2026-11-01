@@ -3,6 +3,7 @@ layout: post
 title: "Uptime Kuma, Healthchecks.io and UptimeRobot alerts in Slack or Discord"
 categories: [posts]
 description: "The Opsgenie integrations of Uptime Kuma, Healthchecks.io and UptimeRobot send only to Opsgenie. Their own webhooks can send to Suitaar instead: down opens an alert, up closes it."
+image: /assets/og/og-uptime-kuma-webhook.png
 ---
 
 Uptime Kuma, Healthchecks.io and UptimeRobot each have an Opsgenie integration. Those integrations send only to Opsgenie's own servers, with no URL setting, so they stop working when Opsgenie stops on 5 April 2027.

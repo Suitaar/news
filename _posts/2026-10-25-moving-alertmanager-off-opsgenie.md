@@ -3,6 +3,7 @@ layout: post
 title: "Moving Alertmanager off Opsgenie by changing one URL"
 categories: [posts]
 description: "Opsgenie stops on 5 April 2027. If Alertmanager sends your alerts to Opsgenie, here is how to keep them in Slack or Discord by changing one URL."
+image: /assets/og/og-slack-new-repeat-resolved.png
 ---
 
 

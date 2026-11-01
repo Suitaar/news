@@ -3,6 +3,7 @@ layout: post
 title: "Grafana's Opsgenie contact point after Opsgenie shuts down"
 categories: [posts]
 description: "Grafana's Opsgenie contact point works with Suitaar. Change the API URL and the key, and Grafana alerts keep going to Slack or Discord."
+image: /assets/og/og-grafana-contact-point.png
 ---
 
 Opsgenie stops on 5 April 2027. If Grafana Alerting sends to Opsgenie through a contact point, you can keep that contact point. Suitaar speaks the Opsgenie Alert API, so Grafana does not notice the difference. Suitaar is our product; this post shows the change.

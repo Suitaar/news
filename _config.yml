@@ -28,3 +28,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
+
+# Social preview (og:image, X large card) for pages without their own `image:`.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/og/og-default.png

@@ -3,6 +3,7 @@ layout: post
 title: "Alerts in Slack or Discord when a Make scenario or an n8n workflow fails"
 categories: [posts]
 description: "An error handler in Make, or an error workflow in n8n, can send an alert to Suitaar. Repeats of the same failure stay one alert with a count."
+image: /assets/posts/card-make-n8n-failures.png
 ---
 
 Automations fail quietly. A Make scenario or an n8n workflow that breaks at night may go unnoticed until someone asks why the data is missing. Suitaar (our product) puts those failures in your team's Slack or Discord channel, with one HTTP step.

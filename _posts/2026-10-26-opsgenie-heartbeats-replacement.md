@@ -3,6 +3,7 @@ layout: post
 title: "Opsgenie heartbeats: what replaces them"
 categories: [posts]
 description: "Opsgenie heartbeats tell you when a job stops running. Suitaar keeps the same ping URL format, so a cron job that pings Opsgenie needs only a new URL and key."
+image: /assets/og/og-heartbeats-table.png
 ---
 
 Some failures make no noise. A backup job that stops running sends no error; it just stops. Opsgenie heartbeats catch that: a job pings Opsgenie when it runs, and Opsgenie raises an alert when the pings stop. When Opsgenie stops on 5 April 2027, those heartbeats stop too.

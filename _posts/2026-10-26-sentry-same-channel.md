@@ -3,6 +3,7 @@ layout: post
 title: "Sentry errors in the same channel as your other alerts"
 categories: [posts]
 description: "Sentry's Opsgenie integration sends only to Opsgenie. A Sentry internal integration can send to Suitaar instead, so Sentry errors join your Alertmanager and Grafana alerts."
+image: /assets/og/og-sentry-integration-details.png
 ---
 
 Many teams used Opsgenie to put everything in one place: Sentry errors next to Alertmanager, Grafana and uptime alerts. Sentry's Opsgenie integration sends only to Opsgenie's own servers, so that stops when Opsgenie stops on 5 April 2027.

@@ -3,6 +3,7 @@ layout: post
 title: "An alert in Slack or Discord when CI fails on main"
 categories: [posts]
 description: "Our GitHub Action opens an alert when a workflow fails and closes it when a later run passes, so a broken main shows once in the channel, not on every run."
+image: /assets/posts/card-github-actions-ci-alerts.png
 ---
 
 When CI breaks on main, you want to know, once. Not a new message for every failed run, and not silence because nobody looks at the Actions tab.

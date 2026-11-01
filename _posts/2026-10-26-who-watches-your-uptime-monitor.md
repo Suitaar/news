@@ -3,6 +3,7 @@ layout: post
 title: "Who watches your uptime monitor?"
 categories: [posts]
 description: "An uptime monitor tells you when a site is down, but not when the monitor itself stops. Let it ping a heartbeat, and silence becomes an alert."
+image: /assets/posts/card-who-watches-your-uptime-monitor.png
 ---
 
 An uptime monitor, for example Uptime Kuma, tells you when a site is down. But when the monitor or its server stops, nothing tells you. The channel goes quiet, and quiet looks like everything is fine.
