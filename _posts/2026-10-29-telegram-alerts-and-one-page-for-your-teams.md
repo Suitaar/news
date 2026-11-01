@@ -7,7 +7,7 @@ description: "Suitaar now sends alerts to Telegram, in your own chat or a group,
 
 Suitaar now sends alerts to Telegram, in your own chat or a group, with Ack and Close buttons. It works on the free plan, like Slack and Discord. This release also brings one page for your teams, the Team page, and a simpler setup flow.
 
-![A Suitaar alert in a Telegram group: "Acknowledged · P3 · Heartbeat daily-release is expired", with a Close button under the message](/assets/posts/telegram-ack-close.webp){: width="543" height="312" loading="lazy" decoding="async"}
+![A Suitaar alert in a Telegram group: "Acknowledged · P3 · Heartbeat daily-release is expired", with a Close button under the message](https://raw.githubusercontent.com/SiriusDely/SiMar/main/guide-images/telegram-ack-close-web.webp){: width="543" height="312" loading="lazy" decoding="async"}
 
 ## Telegram
 
