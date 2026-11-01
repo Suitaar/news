@@ -3,6 +3,7 @@ layout: post
 title: "Telegram alerts, and one page for your teams"
 categories: [updates]
 description: "Suitaar now sends alerts to Telegram, in your own chat or a group, with Ack and Close buttons. Also new: the Team page, Telegram in the setup, and a clearer key warning."
+image: /assets/og/og-telegram-ack-close.png
 ---
 
 Suitaar now sends alerts to Telegram, in your own chat or a group, with Ack and Close buttons. It works on the free plan, like Slack and Discord. This release also brings one page for your teams, Telegram in the setup, and a clearer warning when Suitaar shows you a key.
