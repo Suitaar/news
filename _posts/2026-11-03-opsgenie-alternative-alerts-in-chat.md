@@ -39,7 +39,7 @@ If you also need someone woken at night, that is the first job. See the last sec
 - Some tools send only to Opsgenie's own servers, for example the Opsgenie integrations of Uptime Kuma, Healthchecks.io and Sentry. They need another way in, usually the tool's own webhook. See [Uptime Kuma, Healthchecks.io and UptimeRobot](/posts/uptime-kuma-healthchecks-uptimerobot/) and [Sentry in the same channel](/posts/sentry-same-channel/).
 - Today it sends to Slack, Discord and Telegram.
 
-## Check it in one hour
+## How to check it
 
 1. Open the [demo](https://suitaar.com/demo). It needs no account.
 2. Sign in with Google, GitHub or Slack, and follow the three setup steps: a destination, a source, a new URL in your tool.
