@@ -15,8 +15,9 @@
 </head>
 <body>
 {%- comment -%}
-  External links open in a new tab. Rule: an <a> that starts with <a href="http(s):// opens in a new tab with rel="noopener",
-  unless its host is news.suitaar.com. Relative links, anchors and mailto: links are not touched.
+  Links to other sites open in a new tab. Rule: an <a> that starts with <a href="http(s):// opens in a new tab with rel="noopener",
+  except links to our own sites, suitaar.com and news.suitaar.com, which stay in the same tab. The status page
+  (status.suitaar.com) is hosted by a third party, so it opens in a new tab. Relative links, anchors and mailto: links are not touched.
   Do not add target or rel by hand to a link: write it as <a href="https://...">, and the rule adds both.
   Liquid has no regex, so the rule reads the plain text <a href="http. Write a link with href first.
 {%- endcomment -%}
@@ -37,9 +38,11 @@
   </footer>
 {%- endcapture -%}
 {{ page_body
-  | replace: '<a href="https://news.suitaar.com/', '<a href="HOME-https://news.suitaar.com/'
-  | replace: '<a href="https://news.suitaar.com"', '<a href="HOME-https://news.suitaar.com"'
+  | replace: '<a href="https://suitaar.com/', '<a href="SAME-https://suitaar.com/'
+  | replace: '<a href="https://suitaar.com"', '<a href="SAME-https://suitaar.com"'
+  | replace: '<a href="https://news.suitaar.com/', '<a href="SAME-https://news.suitaar.com/'
+  | replace: '<a href="https://news.suitaar.com"', '<a href="SAME-https://news.suitaar.com"'
   | replace: '<a href="http', '<a target="_blank" rel="noopener" href="http'
-  | replace: '<a href="HOME-https://news.suitaar.com', '<a href="https://news.suitaar.com' }}
+  | replace: '<a href="SAME-', '<a href="' }}
 </body>
 </html>
