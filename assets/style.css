@@ -4,8 +4,9 @@
 body { margin: 0; font-family: system-ui, -apple-system, sans-serif; font-size: 16px; line-height: 1.5; color: var(--ink); background: var(--ground); }
 a { color: var(--ink); } a:hover { color: var(--amber-text); }
 /* A link that opens a new tab (target="_blank", set by _layouts/default.html) shows a small arrow. A screen reader says the text after the slash;
-   the line before is the fallback for a browser without that syntax. The arrow is not underlined and takes the colour of the link. */
-a[target="_blank"]::after { content: "\2197"; content: "\2197" / " (opens in a new tab)"; display: inline-block; margin-left: 0.15em; font-size: 0.85em; text-decoration: none; }
+   the line before is the fallback for a browser without that syntax. The arrow is inline and starts with a word joiner (\2060), so it never wraps
+   alone to the next line; the underline of the link runs under it. The arrow takes the colour of the link. */
+a[target="_blank"]::after { content: "\2060\2197"; content: "\2060\2197" / " (opens in a new tab)"; margin-left: 0.15em; font-size: 0.85em; }
 h1 { font-size: 1.75rem; line-height: 1.2; margin: 16px 0 8px; }
 h2 { font-size: 1.25rem; line-height: 1.3; margin: 32px 0 8px; }
 h3 { font-size: 1.1rem; line-height: 1.3; margin: 24px 0 8px; }
