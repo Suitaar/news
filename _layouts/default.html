@@ -14,19 +14,35 @@
   <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
+{%- comment -%}
+  Links to other sites open in a new tab. Rule: an <a> that starts with <a href="http(s):// opens in a new tab with rel="noopener",
+  except links to our own sites, suitaar.com and news.suitaar.com, which stay in the same tab. The status page
+  (status.suitaar.com) is hosted by a third party, so it opens in a new tab. Relative links, anchors and mailto: links are not touched.
+  Do not add target or rel by hand to a link: write it as <a href="https://...">, and the rule adds both.
+  Liquid has no regex, so the rule reads the plain text <a href="http. Write a link with href first.
+{%- endcomment -%}
+{%- capture page_body -%}
   {% assign section = page.category | default: page.categories.first %}
   <header>
     <strong><a class="brand" href="{{ '/' | relative_url }}"><img class="mark" src="{{ '/assets/favicon.svg' | relative_url }}" width="24" height="24" alt="">Suitaar news</a></strong>
     <a href="{{ '/updates/' | relative_url }}"{% if section == "updates" %} aria-current="page"{% endif %}>Updates</a>
     <a href="{{ '/maintenance/' | relative_url }}"{% if section == "maintenance" %} aria-current="page"{% endif %}>Maintenance</a>
     <a href="{{ '/posts/' | relative_url }}"{% if section == "posts" %} aria-current="page"{% endif %}>Posts</a>
-    <a class="right" href="https://suitaar.com/">suitaar.com</a>
+    <a href="https://suitaar.com/" class="right">suitaar.com</a>
   </header>
   <main>
     {{ content }}
   </main>
   <footer>
-    <a href="https://suitaar.com/">Suitaar</a> · <a href="https://suitaar.com/guide">Setup guide</a> · <a href="https://status.suitaar.com" rel="noopener">Status</a> · <a href="{{ '/privacy/' | relative_url }}">Privacy</a> · <a href="{{ '/feed.xml' | relative_url }}">Feed</a> · <a href="mailto:mail@suitaar.com">mail@suitaar.com</a> · <a href="https://x.com/suitaar" rel="noopener">X: @suitaar</a>
+    <a href="https://suitaar.com/">Suitaar</a> · <a href="https://suitaar.com/guide">Setup guide</a> · <a href="https://status.suitaar.com">Status</a> · <a href="{{ '/privacy/' | relative_url }}">Privacy</a> · <a href="{{ '/feed.xml' | relative_url }}">Feed</a> · <a href="mailto:mail@suitaar.com">mail@suitaar.com</a> · <a href="https://x.com/suitaar">X: @suitaar</a>
   </footer>
+{%- endcapture -%}
+{{ page_body
+  | replace: '<a href="https://suitaar.com/', '<a href="SAME-https://suitaar.com/'
+  | replace: '<a href="https://suitaar.com"', '<a href="SAME-https://suitaar.com"'
+  | replace: '<a href="https://news.suitaar.com/', '<a href="SAME-https://news.suitaar.com/'
+  | replace: '<a href="https://news.suitaar.com"', '<a href="SAME-https://news.suitaar.com"'
+  | replace: '<a href="http', '<a target="_blank" rel="noopener" href="http'
+  | replace: '<a href="SAME-', '<a href="' }}
 </body>
 </html>
