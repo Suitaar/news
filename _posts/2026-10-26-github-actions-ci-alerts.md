@@ -46,3 +46,9 @@ A scheduled workflow can ping a Suitaar heartbeat at the end. When the schedule 
 Setup steps: [guide, GitHub Actions](https://suitaar.com/guide#github-actions).
 
 The free plan stays free after the beta: 3 channels, no payment details.
+
+## Related posts
+
+- [Sentry errors in the same channel as your other alerts](/posts/sentry-same-channel/)
+- [Alerts in Slack or Discord when a Make scenario or an n8n workflow fails](/posts/make-n8n-failures/)
+- [The Opsgenie Python SDK, Go SDK and Terraform provider after the shutdown](/posts/opsgenie-sdks-terraform/)

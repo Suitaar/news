@@ -147,3 +147,9 @@ We test this path end to end on production: a real alert from Alertmanager throu
 The full setup, also for Grafana, Sentry, uptime tools and scripts, is in the [setup guide](https://suitaar.com/guide#alertmanager). You can also [try Suitaar without an account](https://suitaar.com/demo).
 
 The free plan stays free after the beta: 3 channels, no payment details.
+
+## Related posts
+
+- [Grafana's Opsgenie contact point after Opsgenie shuts down](/posts/grafana-opsgenie-contact-point/)
+- [A dead man's switch for Prometheus, without Opsgenie](/posts/prometheus-dead-mans-switch/)
+- [Before you move off Opsgenie: a short checklist](/posts/before-you-move-off-opsgenie/)

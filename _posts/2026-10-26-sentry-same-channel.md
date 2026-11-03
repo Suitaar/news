@@ -47,3 +47,8 @@ It works on Sentry's free Developer plan too, in both directions: alerts from Se
 Setup steps: [guide, Sentry](https://suitaar.com/guide#sentry).
 
 The free plan stays free after the beta: 3 channels, no payment details.
+
+## Related posts
+
+- [Uptime Kuma, Healthchecks.io and UptimeRobot alerts in Slack or Discord](/posts/uptime-kuma-healthchecks-uptimerobot/)
+- [An alert in Slack or Discord when CI fails on main](/posts/github-actions-ci-alerts/)

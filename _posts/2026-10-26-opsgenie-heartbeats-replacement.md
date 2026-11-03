@@ -46,3 +46,10 @@ As with Opsgenie, a ping answers 202 also for a heartbeat name that does not exi
 Setup steps: [guide, heartbeats](https://suitaar.com/guide#heartbeats).
 
 The free plan stays free after the beta: 3 channels, no payment details.
+
+## Related posts
+
+- [A dead man's switch for Prometheus, without Opsgenie](/posts/prometheus-dead-mans-switch/)
+- [Who watches your uptime monitor?](/posts/who-watches-your-uptime-monitor/)
+- [Know when a Zap fails, is turned off, or stops running](/posts/zap-errors-off-stopped/)
+- [An Opsgenie alternative for teams that only need alerts in chat](/posts/opsgenie-alternative-alerts-in-chat/)

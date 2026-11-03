@@ -47,3 +47,10 @@ We test Grafana end to end on production: a real alert from Grafana through Suit
 Setup steps: [guide, Grafana](https://suitaar.com/guide#grafana). You can also [try Suitaar without an account](https://suitaar.com/demo).
 
 The free plan stays free after the beta: 3 channels, no payment details.
+
+## Related posts
+
+- [Moving Alertmanager off Opsgenie by changing one URL](/posts/moving-alertmanager-off-opsgenie/)
+- [Before you move off Opsgenie: a short checklist](/posts/before-you-move-off-opsgenie/)
+- [The Opsgenie Python SDK, Go SDK and Terraform provider after the shutdown](/posts/opsgenie-sdks-terraform/)
+- [An Opsgenie alternative for teams that only need alerts in chat](/posts/opsgenie-alternative-alerts-in-chat/)

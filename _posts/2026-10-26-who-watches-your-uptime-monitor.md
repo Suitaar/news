@@ -47,3 +47,9 @@ It shows that the monitor runs. It does not show that the monitor's own notifica
 Setup steps: [guide, who watches your uptime monitor](https://suitaar.com/guide#watch-uptime-monitor).
 
 The free plan stays free after the beta: 3 channels, no payment details.
+
+## Related posts
+
+- [Opsgenie heartbeats: what replaces them](/posts/opsgenie-heartbeats-replacement/)
+- [Uptime Kuma, Healthchecks.io and UptimeRobot alerts in Slack or Discord](/posts/uptime-kuma-healthchecks-uptimerobot/)
+- [A dead man's switch for Prometheus, without Opsgenie](/posts/prometheus-dead-mans-switch/)

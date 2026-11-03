@@ -46,3 +46,9 @@ If you also need someone woken at night, that is the first job. See the last sec
 3. Send to Opsgenie and Suitaar side by side for a week, and compare. For Alertmanager, see [Moving Alertmanager off Opsgenie](/posts/moving-alertmanager-off-opsgenie/). For the full list of checks, see [Before you move off Opsgenie](/posts/before-you-move-off-opsgenie/).
 
 [Setup guide](https://suitaar.com/guide) · [Try it without an account](https://suitaar.com/demo)
+
+## Related posts
+
+- [Grafana's Opsgenie contact point after Opsgenie shuts down](/posts/grafana-opsgenie-contact-point/)
+- [Opsgenie heartbeats: what replaces them](/posts/opsgenie-heartbeats-replacement/)
+- [The Opsgenie Python SDK, Go SDK and Terraform provider after the shutdown](/posts/opsgenie-sdks-terraform/)

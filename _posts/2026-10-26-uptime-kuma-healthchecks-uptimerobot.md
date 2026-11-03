@@ -55,3 +55,8 @@ Uptime Kuma and Healthchecks.io are part of our end-to-end test on production.
 Setup steps: [guide, Uptime Kuma](https://suitaar.com/guide#uptime-kuma).
 
 The free plan stays free after the beta: 3 channels, no payment details.
+
+## Related posts
+
+- [Who watches your uptime monitor?](/posts/who-watches-your-uptime-monitor/)
+- [Sentry errors in the same channel as your other alerts](/posts/sentry-same-channel/)

@@ -47,3 +47,8 @@ We tested this on 26 October 2026: the connection, Create Alert with all its fie
 Make a source on [suitaar.com](https://suitaar.com), connect a Slack or Discord channel, and change the account in your Zap. You can also [try Suitaar without an account](https://suitaar.com/demo).
 
 The free plan stays free after the beta: 3 channels, no payment details.
+
+## Related posts
+
+- [The Opsgenie Python SDK, Go SDK and Terraform provider after the shutdown](/posts/opsgenie-sdks-terraform/)
+- [Know when a Zap fails, is turned off, or stops running](/posts/zap-errors-off-stopped/)

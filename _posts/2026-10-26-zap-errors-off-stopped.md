@@ -41,3 +41,9 @@ The alias decides the grouping. One alert for each Zap is the default. One alert
 The full field tables are in the guide: [Zapier](https://suitaar.com/guide#zapier-errors).
 
 The free plan stays free after the beta: 3 channels, no payment details.
+
+## Related posts
+
+- [Opsgenie heartbeats: what replaces them](/posts/opsgenie-heartbeats-replacement/)
+- [Alerts in Slack or Discord when a Make scenario or an n8n workflow fails](/posts/make-n8n-failures/)
+- [Keep your Zapier OpsGenie Zaps after Opsgenie shuts down](/posts/zapier-opsgenie-app-after-opsgenie/)

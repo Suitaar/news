@@ -63,3 +63,9 @@ The alert goes to the Slack or Discord channel of the source. The first ping aft
 Setup steps: [guide, a dead man's switch for Prometheus](https://suitaar.com/guide#prometheus-watchdog). The rest of the Alertmanager setup: [Moving Alertmanager off Opsgenie by changing one URL](/posts/moving-alertmanager-off-opsgenie/).
 
 The free plan stays free after the beta: 3 channels, no payment details.
+
+## Related posts
+
+- [Moving Alertmanager off Opsgenie by changing one URL](/posts/moving-alertmanager-off-opsgenie/)
+- [Opsgenie heartbeats: what replaces them](/posts/opsgenie-heartbeats-replacement/)
+- [Who watches your uptime monitor?](/posts/who-watches-your-uptime-monitor/)

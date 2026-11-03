@@ -42,3 +42,9 @@ Suitaar does the second job: it speaks the Opsgenie Alert API and sends alerts t
 [Setup guide](https://suitaar.com/guide) · [Try it without an account](https://suitaar.com/demo)
 
 The free plan stays free after the beta: 3 channels, no payment details.
+
+## Related posts
+
+- [Grafana's Opsgenie contact point after Opsgenie shuts down](/posts/grafana-opsgenie-contact-point/)
+- [The Opsgenie Python SDK, Go SDK and Terraform provider after the shutdown](/posts/opsgenie-sdks-terraform/)
+- [Moving Alertmanager off Opsgenie by changing one URL](/posts/moving-alertmanager-off-opsgenie/)

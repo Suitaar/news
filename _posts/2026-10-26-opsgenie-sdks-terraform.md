@@ -55,3 +55,10 @@ Suitaar supports these parts of the Opsgenie API: create an alert, read it, clos
 Setup steps: [guide, scripts](https://suitaar.com/guide#scripts) and [tools that take only a host](https://suitaar.com/guide#host-only).
 
 The free plan stays free after the beta: 3 channels, no payment details.
+
+## Related posts
+
+- [Grafana's Opsgenie contact point after Opsgenie shuts down](/posts/grafana-opsgenie-contact-point/)
+- [Keep your Zapier OpsGenie Zaps after Opsgenie shuts down](/posts/zapier-opsgenie-app-after-opsgenie/)
+- [Before you move off Opsgenie: a short checklist](/posts/before-you-move-off-opsgenie/)
+- [An alert in Slack or Discord when CI fails on main](/posts/github-actions-ci-alerts/)

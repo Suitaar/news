@@ -41,3 +41,8 @@ For a scenario or workflow on a schedule, add a heartbeat on a source page in Su
 Setup steps: [guide, Make](https://suitaar.com/guide#make) and [n8n](https://suitaar.com/guide#n8n).
 
 The free plan stays free after the beta: 3 channels, no payment details.
+
+## Related posts
+
+- [An alert in Slack or Discord when CI fails on main](/posts/github-actions-ci-alerts/)
+- [Know when a Zap fails, is turned off, or stops running](/posts/zap-errors-off-stopped/)
