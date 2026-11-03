@@ -4,6 +4,7 @@ title: "The Opsgenie Python SDK, Go SDK and Terraform provider after the shutdow
 categories: [posts]
 description: "Scripts on the Opsgenie SDKs can keep their code. Point the SDK at Suitaar with one setting: a full URL for the Python SDK, a host for the Go SDK."
 image: /assets/posts/card-opsgenie-sdks-terraform.png
+last_modified_at: 2026-11-03
 ---
 
 Not every alert comes from Alertmanager or Grafana. Many teams have scripts and small services that raise alerts through the Opsgenie SDKs. When Opsgenie stops on 5 April 2027, those calls fail.

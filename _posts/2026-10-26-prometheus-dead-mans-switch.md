@@ -4,6 +4,7 @@ title: "A dead man's switch for Prometheus, without Opsgenie"
 categories: [posts]
 description: "Alerts come only while Prometheus and Alertmanager run. A Watchdog alert that pings a Suitaar heartbeat tells you when they stop."
 image: /assets/posts/card-prometheus-dead-mans-switch.png
+last_modified_at: 2026-11-03
 ---
 
 Prometheus watches your systems. But when Prometheus or Alertmanager stops, the alerts stop too, and a quiet channel looks like everything is fine. Many teams use an always-firing Watchdog alert and a heartbeat in Opsgenie to catch that. When Opsgenie stops on 5 April 2027, that check needs a new home.

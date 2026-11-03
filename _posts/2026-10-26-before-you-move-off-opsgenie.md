@@ -4,6 +4,7 @@ title: "Before you move off Opsgenie: a short checklist"
 categories: [posts]
 description: "Five things to check before Opsgenie stops on 5 April 2027: your renewal date, what sends to Opsgenie, your heartbeats, who needs paging, and a trial period."
 image: /assets/posts/card-before-you-move-off-opsgenie.png
+last_modified_at: 2026-11-03
 ---
 
 Opsgenie stops on 5 April 2027. Whatever you move to, these five checks save surprises. Suitaar is our product, but this list applies to any replacement.

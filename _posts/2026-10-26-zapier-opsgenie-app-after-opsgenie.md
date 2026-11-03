@@ -4,6 +4,7 @@ title: "Keep your Zapier OpsGenie Zaps after Opsgenie shuts down"
 categories: [posts]
 description: "Zapier's OpsGenie app works with Suitaar. Change the connected account, and your Zaps keep sending alerts, now to Slack or Discord."
 image: /assets/og/og-zapier-opsgenie-connect-suitaar.png
+last_modified_at: 2026-11-03
 ---
 
 Opsgenie stops on 5 April 2027. If you have Zaps that use Zapier's OpsGenie app, for example to raise an alert when a Zap fails, those Zaps stop working too. Suitaar is our product, and this post shows how to keep those Zaps with one change: the connected account.

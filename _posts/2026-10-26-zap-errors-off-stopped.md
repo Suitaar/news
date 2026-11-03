@@ -4,6 +4,7 @@ title: "Know when a Zap fails, is turned off, or stops running"
 categories: [posts]
 description: "Three ways a Zap breaks, and an alert in Slack or Discord for each: a failed run, a Zap that Zapier turns off, and a scheduled Zap that stops running."
 image: /assets/og/og-discord-zap-turned-off.png
+last_modified_at: 2026-11-03
 ---
 
 A Zap can break in three ways, and Zapier's own emails cover only part of it:
