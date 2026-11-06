@@ -4,7 +4,7 @@ title: "Moving Alertmanager off Opsgenie by changing one URL"
 categories: [posts]
 description: "Opsgenie stops on 5 April 2027. If Alertmanager sends your alerts to Opsgenie, here is how to keep them in Slack or Discord by changing one URL."
 image: /assets/og/og-slack-new-repeat-resolved.png
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 ---
 
 
@@ -136,7 +136,8 @@ Add the heartbeat `prometheus-watchdog` on the source page first, with an interv
 
 ## What is different from Opsgenie
 
-- No on-call schedules, escalation, phone calls or SMS. Suitaar sends to your chat.
+- No on-call schedules, phone calls or SMS. Suitaar sends to your chat.
+- One escalation step for each channel, not escalation policies: if nobody acknowledges or closes an alert in the time that you set, Suitaar sends it to a second destination, one time.
 - Only part of the Opsgenie API: create, read, close and acknowledge an alert, add a note, read the status of a request, and ping a heartbeat. Fields that Suitaar does not use, such as `responders`, are accepted and ignored, so Alertmanager keeps working.
 - You acknowledge and close an alert on its page in the Suitaar dashboard. Buttons in Slack and Discord come later.
 - If Suitaar cannot be reached for a short time, Alertmanager sends again by itself, so the alert is late, not lost.

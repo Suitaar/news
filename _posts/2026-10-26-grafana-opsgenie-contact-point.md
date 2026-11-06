@@ -4,7 +4,7 @@ title: "Grafana's Opsgenie contact point after Opsgenie shuts down"
 categories: [posts]
 description: "Grafana's Opsgenie contact point works with Suitaar. Change the API URL and the key, and Grafana alerts keep going to Slack or Discord."
 image: /assets/og/og-grafana-contact-point.png
-last_modified_at: 2026-11-03
+last_modified_at: 2026-11-06
 ---
 
 Opsgenie stops on 5 April 2027. If Grafana Alerting sends to Opsgenie through a contact point, you can keep that contact point. Suitaar speaks the Opsgenie Alert API, so Grafana does not notice the difference. Suitaar is our product; this post shows the change.
@@ -41,7 +41,7 @@ You can add the Suitaar contact point next to the Opsgenie one and send to both 
 
 ## What is different from Opsgenie
 
-Suitaar is not an on-call tool: no schedules, no escalation, no phone calls. You acknowledge and close an alert on its page in the Suitaar dashboard; buttons in Slack and Discord come later.
+Suitaar is not an on-call tool: no schedules and no phone calls. It has one escalation step for each channel: if nobody acknowledges or closes an alert in the time that you set, Suitaar sends it to a second destination, one time. You acknowledge and close an alert on its page in the Suitaar dashboard; buttons in Slack and Discord come later.
 
 We test Grafana end to end on production: a real alert from Grafana through Suitaar to Slack and Discord, then acknowledged and closed.
 
